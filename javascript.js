@@ -49,22 +49,3 @@ const myBtnList = document.querySelectorAll('button');
 myBtnList.forEach(button => button.addEventListener('click',
 () => playRound(button.id, getComputerChoice())));
 
-/*
-playRound(getPlayerChoice(), getComputerChoice());
-*/
-/*
-function game() {
-    let wins = 0;
-    for (let i = 0; i < 5; i++) {
-        const result = playRound(getPlayerChoice(), getComputerChoice());
-        wins += result;
-    }
-    if (wins > 0) {
-        console.log('You have defeated the computer!');
-    } else {
-        console.log('You have lost to the computer.');
-    }
-}
-
-game();
-*/
